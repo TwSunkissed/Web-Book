@@ -28,6 +28,7 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -126,22 +127,23 @@
                            <class="row">
                               <div class="col-md-12">
                                  <span>Arrival</span>
-                                 <img class="date_cua" src="images/date.png">
-                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
-                              </div>
-                              <div class="col-md-12">
+                                
+                                 <input class="online_book date_input" placeholder="dd/mm/yyyy" type="date" name="arrival_date">
+                             </div>
+                             <div class="col-md-12">
                                  <span>Departure</span>
-                                 <img class="date_cua" src="images/date.png">
-                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy">
-                              </div>
+                               
+                                 <input class="online_book date_input" placeholder="dd/mm/yyyy" type="date" name="departure_date">
+                             </div>
+                             
+                             
                               <a
                                  name=""
                                  id=""
                                  class="btn btn-primary"
                                  href="booking.html"
                                  role="button"
-                                 >Booking</a
-                              >
+                                 >Booking</a>
                               
                               </div>
                            </div>
@@ -191,8 +193,8 @@
                         <figure><img src="images/room1.jpg" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
-                        <h3>Bed Room</h3>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there </p>
+                        <h3>Standard Room</h3>
+                        <p>เน้นความสะดวกสบายที่ได้มาตรฐาน </p>
                      </div>
                   </div>
                </div>
@@ -202,8 +204,8 @@
                         <figure><img src="images/room2.jpg" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
-                        <h3>Bed Room</h3>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there </p>
+                        <h3>Deluxe Room</h3>
+                        <p>เน้นความครบครันและการตกแต่งที่พิเศษขึ้น </p>
                      </div>
                   </div>
                </div>
@@ -213,8 +215,8 @@
                         <figure><img src="images/room3.jpg" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
-                        <h3>Bed Room</h3>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there </p>
+                        <h3>Suite Room</h3>
+                        <p>เน้นความหรูหราและตอบโจทย์ทุกความต้องการ </p>
                      </div>
                   </div>
                </div>
@@ -224,8 +226,8 @@
                         <figure><img src="images/room4.jpg" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
-                        <h3>Bed Room</h3>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there </p>
+                        <h3>Superior Room</h3>
+                        <p>เหมาะสำหรับผู้เข้าพักที่เดินทางมาทำงาน </p>
                      </div>
                   </div>
                </div>
@@ -235,8 +237,8 @@
                         <figure><img src="images/room5.jpg" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
-                        <h3>Bed Room</h3>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there </p>
+                        <h3>Family Room</h3>
+                        <p>เน้นความอบอุ่นและบรรยากาศที่สนุกสนาน </p>
                      </div>
                   </div>
                </div>
@@ -246,8 +248,8 @@
                         <figure><img src="images/room6.jpg" alt="#"/></figure>
                      </div>
                      <div class="bed_room">
-                        <h3>Bed Room</h3>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there </p>
+                        <h3>Honeymoon Room</h3>
+                        <p>ห้องสำหรับคู่รัก </p>
                      </div>
                   </div>
                </div>
@@ -317,7 +319,7 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Blog</h2>
-                     <p>Lorem Ipsum available, but the majority have suffered </p>
+                     <p>รีวิวห้องแต่ละแบบ</p>
                   </div>
                </div>
             </div>
@@ -325,40 +327,64 @@
                <div class="col-md-4">
                   <div class="blog_box">
                      <div class="blog_img">
-                        <figure><img src="images/blog1.jpg" alt="#"/></figure>
+                        <figure><img src="images/famroom.jpg" alt="#"/></figure>
                      </div>
                      <div class="blog_room">
-                        <h3>Bed Room</h3>
-                        <span>The standard chunk </span>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
+                        <h3>Family Room</h3>
+                        <span> เน้นความอบอุ่นและบรรยากาศที่สนุกสนาน </span>
+                        <p>เป้าหมายสูงสุดของแขกที่มาพักเป็นครอบครัวหรือแขกที่มากับกลุ่มเพื่อนสนิท ดังนั้น Family Room จะต้องถูกออกแบบให้มีความสะดวกสบายและช่วยให้สมาชิกในครอบครัวใช้เวลาอยู่ด้วยกันมากขึ้น โดยไม่จำเป็นต้องเดินข้ามห้องไปมา ซึ่งส่วนมากห้องประเภทนี้จะต้องรองรับแขกได้ประมาณ 4 คน</p><br>
+                        <a href="blog1.html"
+                           name="blog1"
+                           id="blog1"
+                           class="btn btn-primary"
+                           href="#"
+                           role="button"
+                           >Readmore</a
+                        >
+                        
                      </div>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="blog_box">
                      <div class="blog_img">
-                        <figure><img src="images/blog2.jpg" alt="#"/></figure>
+                        <figure><img src="images/sup.png" alt="#"/></figure>
                      </div>
                      <div class="blog_room">
-                        <h3>Bed Room</h3>
-                        <span>The standard chunk </span>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
+                        <h3>Supirior Room<h3>
+                        <span>เหมาะสำหรับผู้เข้าพักที่เดินทางมาทำงาน</span>
+                        <p> เป็นห้องพักที่มีขนาดกว้างกว่าห้องสแตนดาร์ดเล็กน้อย มีสิ่งอำนวยความสะดวกเพิ่มขึ้น เช่น โซฟา และโต๊ะทำงาน ซึ่งเหมาะสำหรับผู้เข้าพักที่เดินทางมาทำงาน หรือพักผ่อน ไม่ว่าจะเข้าพักคนเดียว หรือเป็นคู่ โดยห้องประเภทนี้เหมาะสำหรับผู้ที่ต้องการความสะดวกสบายมากขึ้นในการพักผ่อน </p><br>
+                        <a href="blog2.html"
+                           name="blog"
+                           id="blog2"
+                           class="btn btn-primary"
+                           href="#"
+                           role="button"
+                           >Readmore</a
+                        >
                      </div>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="blog_box">
                      <div class="blog_img">
-                        <figure><img src="images/blog3.jpg" alt="#"/></figure>
+                        <figure><img src="images/Honeymoon Room.jpg" alt="#"/></figure>
                      </div>
                      <div class="blog_room">
-                        <h3>Bed Room</h3>
-                        <span>The standard chunk </span>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are   </p>
+                        <h3>Honeymoon Room</h3>
+                        <span> ห้องสำหรับคู่รัก </span>
+                        <p>Honeymoon Room ห้องสำหรับคู่รัก จะมีเตียงนอนขนาดใหญ่สำหรับ 2 คน มีสิ่งอำนวยความสะดวก และการตกแต่งช่วยเพิ่มบรรยากาศดีๆ ให้กับคู่รักมากกว่าห้องพักมาตรฐานทั่วไป</p><br>
+                        <a href="blog3.html"
+                           name="blog"
+                           id="blog3"
+                           class="btn btn-primary"
+                           href="#"
+                           role="button"
+                           >Readmore</a
+                        >
                      </div>
                   </div>
                </div>
-            </div>
          </div>
       </div>
       <!-- end blog -->
